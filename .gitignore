@@ -1,0 +1,5 @@
+/vendor
+/node_modules
+.env
+# /resources/views/frontend/homepage/component/head.blade.php
+# /public/userfiles
