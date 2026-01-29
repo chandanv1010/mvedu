@@ -54,7 +54,7 @@
         .value-we-bring-title {
             font-size: 42px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 15px 0;
             line-height: 1.3;
 
@@ -113,7 +113,7 @@
             inset: 0;
             border-radius: 12px;
             padding: 2px;
-            background: linear-gradient(to right, #008DC2, #00B9FF);
+            background: linear-gradient(to right, #EE1D23, #EE1D23);
             -webkit-mask:
                 linear-gradient(#fff 0 0) content-box,
                 linear-gradient(#fff 0 0);
@@ -132,10 +132,15 @@
             transform: translate(-50%, 0);
             width: 181px;
             height: 51px;
-            background-image: url('../../public/frontend/resources/img/h-bg.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
+            background-color: #EE1D23;
+            -webkit-mask-image: url('../../public/frontend/resources/img/h-bg.png');
+            mask-image: url('../../public/frontend/resources/img/h-bg.png');
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-position: center;
+            mask-position: center;
+            -webkit-mask-size: contain;
+            mask-size: contain;
             pointer-events: none;
         }
 
@@ -184,7 +189,7 @@
                 }
 
                 &.value-card-text-highlight {
-                    color: #008DC2;
+                    color: #EE1D23;
                     font-weight: 600;
                     font-size: 13px;
                 }
@@ -213,7 +218,7 @@
             background-size: contain;
             width: 80px;
             height: 80px;
-            border: 4px solid #008DC2;
+            border: 4px solid #EE1D23;
             border-radius: 50%;
             background-color: #fff;
 
@@ -253,7 +258,7 @@
                 width: 8px;
                 height: 8px;
                 border-radius: 50%;
-                background: #008DC2;
+                background: #EE1D23;
                 position: absolute;
                 right: 0;
                 top: 50%;
@@ -316,7 +321,7 @@
 
     // Top Header Bar
     .header-top-bar {
-        background: #008DC2;
+        background: #EE1D23;
         color: #fff;
         padding: 8px 0;
         font-size: 14px;
@@ -447,7 +452,7 @@
                     flex-shrink: 0; // KhÃ´ng cho phÃ©p shrink
 
                     >a {
-                        color: #008DC2;
+                        color: #EE1D23;
                         text-decoration: none;
                         font-size: 14px;
                         font-weight: 800;
@@ -520,14 +525,14 @@
 
                 &:hover {
                     background: #f0f0f0;
-                    color: #008DC2;
+                    color: #EE1D23;
                 }
 
                 .cart-count {
                     position: absolute;
                     top: -5px;
                     right: -5px;
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     font-size: 11px;
                     font-weight: 700;
@@ -617,13 +622,13 @@
             outline: none;
 
             &:focus {
-                border-color: #008DC2;
+                border-color: #EE1D23;
             }
         }
 
         .search-submit {
             padding: 10px 20px;
-            background: #008DC2;
+            background: #EE1D23;
             color: #fff;
             border: none;
             border-radius: 4px;
@@ -692,8 +697,8 @@
 
                 &:hover {
                     background: #f8f9fa;
-                    color: #008DC2;
-                    border-left-color: #008DC2;
+                    color: #EE1D23;
+                    border-left-color: #EE1D23;
                     padding-left: 34px;
                 }
             }
@@ -714,7 +719,7 @@
 
                 &:hover {
                     >a::after {
-                        color: #008DC2;
+                        color: #EE1D23;
                         transform: translateX(3px);
                     }
 
@@ -1024,7 +1029,7 @@
     }
 
     .statistics-wrapper {
-        background: #EA1B35;
+        background: #FEEB0C;
         border-radius: 12px;
         padding: 40px 20px;
         box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.25);
@@ -1051,7 +1056,7 @@
         text-align: center;
         flex: 1;
         min-width: 150px;
-        color: #fff;
+        color: #000;
         position: relative;
 
         // Border phân cách giữa các item
@@ -1128,7 +1133,7 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.4;
-            color: rgba(255, 255, 255, 0.95);
+            color: #000;
 
             @media (max-width: 768px) {
                 font-size: 11px;
@@ -1222,7 +1227,7 @@
 
         i {
             font-size: 28px;
-            color: #008DC2;
+            color: #EE1D23;
         }
 
         @media (max-width: 768px) {
@@ -1252,7 +1257,7 @@
         h2 {
             font-size: 32px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0;
             line-height: 1.3;
 
@@ -1486,7 +1491,7 @@
         .training-program-title {
             font-size: 32px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 20px 0;
             line-height: 1.3;
 
@@ -2139,7 +2144,7 @@
             flex: 1;
             background: #fff;
             border-radius: 100px;
-            border-left: 5px solid #008DC2;
+            border-left: 5px solid #EE1D23;
             padding: 15px 25px;
             padding-left: 20px;
             position: relative;
@@ -2283,7 +2288,7 @@
 // Register Banner Section
 // ============================================
 .panel-register-banner {
-    background: #008DC2;
+    background: #EE1D23;
     padding: 25px 0;
     position: relative;
     overflow: hidden;
@@ -2372,8 +2377,8 @@
     }
 
     .uk-container {
-        background: #008DC2;
-        border: 3px solid #008DC2;
+        background: #EE1D23;
+        border: 3px solid #EE1D23;
         border-radius: 16px;
         padding: 40px 30px;
 
@@ -2686,7 +2691,7 @@
         left: 0;
         right: 0;
         height: 4px;
-        background: linear-gradient(90deg, #008DC2 0%, #00B9FF 100%);
+        background: linear-gradient(90deg, #EE1D23 0%, #00B9FF 100%);
     }
 
     .uk-container {
@@ -2713,7 +2718,7 @@
         .schools-list-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 20px 0;
             line-height: 1.3;
 
@@ -2773,7 +2778,7 @@
             .swiper-button-next {
                 width: 50px;
                 height: 50px;
-                background: #008DC2 !important;
+                background: #EE1D23 !important;
                 border-radius: 50%;
                 box-shadow: 0 2px 8px rgba(0, 141, 194, 0.3);
                 color: #fff !important;
@@ -2818,13 +2823,13 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            border: 2px solid #008DC2;
+            border: 2px solid #EE1D23;
             margin-bottom: 25px;
 
             &:hover {
                 transform: translateY(-5px);
                 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-                border-color: #008DC2;
+                border-color: #EE1D23;
             }
 
             .school-card-icon {
@@ -2899,7 +2904,7 @@
                             }
 
                             strong {
-                                color: #008DC2;
+                                color: #EE1D23;
                                 font-weight: 600;
                             }
                         }
@@ -2972,7 +2977,7 @@
                 .swiper-button-next {
                     width: 40px;
                     height: 40px;
-                    background: #008DC2 !important;
+                    background: #EE1D23 !important;
                     color: #fff !important;
 
                     &:after {
@@ -3049,7 +3054,7 @@
                 .swiper-button-next {
                     width: 35px;
                     height: 35px;
-                    background: #008DC2 !important;
+                    background: #EE1D23 !important;
                     color: #fff !important;
 
                     &:after {
@@ -3132,7 +3137,7 @@
     .uk-container {
         max-width: 1440px;
         padding: 40px 20px;
-        background: #008DC2;
+        background: #EE1D23;
         border-radius: 12px;
         min-height: 260px;
         display: flex;
@@ -3279,7 +3284,7 @@
         .majors-list-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 20px 0;
             line-height: 1.3;
 
@@ -3401,7 +3406,7 @@
                 .swiper-button-next {
                     width: 50px;
                     height: 50px;
-                    background: #008DC2 !important;
+                    background: #EE1D23 !important;
                     border-radius: 50%;
                     box-shadow: 0 2px 8px rgba(0, 141, 194, 0.3);
                     color: #fff !important;
@@ -3529,7 +3534,7 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            border: 2px solid #008DC2;
+            border: 2px solid #EE1D23;
             overflow: hidden;
 
             &:hover {
@@ -3580,7 +3585,7 @@
                         }
 
                         i {
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-size: 16px;
                             margin-top: 3px;
                             flex-shrink: 0;
@@ -3601,7 +3606,7 @@
 
                         .info-value {
                             font-size: 14px;
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-weight: 600;
                             line-height: 1.6;
                         }
@@ -4109,7 +4114,7 @@
             .student-feedback-title {
                 font-size: 36px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0 0 15px 0;
                 line-height: 1.3;
 
@@ -4298,7 +4303,7 @@
                     background: #fff;
                     border-radius: 50%;
                     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-                    color: #008DC2;
+                    color: #EE1D23;
                     transition: all 0.3s ease;
 
                     &::after {
@@ -4307,7 +4312,7 @@
                     }
 
                     &:hover {
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
                         box-shadow: 0 4px 12px rgba(0, 141, 194, 0.3);
                     }
@@ -4344,7 +4349,7 @@
                         transition: all 0.3s ease;
 
                         &.swiper-pagination-bullet-active {
-                            background: #008DC2;
+                            background: #EE1D23;
                             width: 30px;
                             border-radius: 6px;
                         }
@@ -4447,7 +4452,7 @@
             .news-outstanding-title {
                 font-size: 36px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0;
                 line-height: 1.3;
 
@@ -4475,7 +4480,7 @@
             .swiper-button-prev {
                 width: 40px !important;
                 height: 40px !important;
-                background: #008DC2 !important;
+                background: #EE1D23 !important;
                 border-radius: 50% !important;
                 color: #fff !important;
                 margin-top: 0 !important;
@@ -4528,12 +4533,12 @@
                 .swiper-pagination-bullet {
                     width: 12px;
                     height: 12px;
-                    background: #008DC2;
+                    background: #EE1D23;
                     opacity: 0.3;
 
                     &.swiper-pagination-bullet-active {
                         opacity: 1;
-                        background: #008DC2;
+                        background: #EE1D23;
                     }
                 }
             }
@@ -4620,7 +4625,7 @@
                                 transition: color 0.3s ease;
 
                                 &:hover {
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                 }
                             }
                         }
@@ -4663,7 +4668,7 @@
                             }
 
                             .news-detail-link {
-                                color: #008DC2;
+                                color: #EE1D23;
                                 font-size: 14px;
                                 font-weight: 600;
                                 text-decoration: none;
@@ -4782,7 +4787,7 @@
                         transition: color 0.3s ease;
 
                         &:hover {
-                            color: #008DC2;
+                            color: #EE1D23;
                         }
                     }
                 }
@@ -4825,7 +4830,7 @@
                     }
 
                     .news-detail-link {
-                        color: #008DC2;
+                        color: #EE1D23;
                         font-size: 14px;
                         font-weight: 600;
                         text-decoration: none;
@@ -5144,7 +5149,7 @@
 // Footer Section
 // ============================================
 #footer.panel-footer {
-    background: #008DC2;
+    background: #EE1D23;
     color: #fff;
     padding: 60px 0 30px;
     margin-top: 0;
@@ -5251,7 +5256,7 @@
 
                 &:hover {
                     background: #fff;
-                    color: #008DC2;
+                    color: #EE1D23;
                     transform: translateY(-3px);
                     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
                     border-color: #fff;
@@ -5560,7 +5565,7 @@
         .breadcrumb-title {
             font-size: 42px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 20px 0;
             line-height: 1.3;
 
@@ -5617,7 +5622,7 @@
                         transition: color 0.3s ease;
 
                         &:hover {
-                            color: #008DC2;
+                            color: #EE1D23;
                         }
                     }
 
@@ -5750,7 +5755,7 @@
                             transition: color 0.3s ease;
 
                             &:hover {
-                                color: #008DC2;
+                                color: #EE1D23;
                             }
                         }
                     }
@@ -5793,7 +5798,7 @@
                         }
 
                         .news-detail-button {
-                            background: #008DC2;
+                            background: #EE1D23;
                             color: #fff;
                             font-size: 13px;
                             font-weight: 600;
@@ -5886,7 +5891,7 @@
             color: #1F2937;
             margin: 0 0 20px 0;
             padding-bottom: 15px;
-            border-bottom: 2px solid #008DC2;
+            border-bottom: 2px solid #EE1D23;
         }
 
         .sidebar-register-form,
@@ -5920,7 +5925,7 @@
 
                         &:focus {
                             outline: none;
-                            border-color: #008DC2;
+                            border-color: #EE1D23;
                             box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                         }
 
@@ -5938,7 +5943,7 @@
                 .btn-submit {
                     width: 100%;
                     padding: 12px 20px;
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     border: none;
                     border-radius: 8px;
@@ -5985,7 +5990,7 @@
 
                         &:hover {
                             .school-name {
-                                color: #008DC2;
+                                color: #EE1D23;
                             }
                         }
 
@@ -6048,7 +6053,7 @@
                         align-items: center;
                         justify-content: center;
                         background: #E0F2FE;
-                        color: #008DC2;
+                        color: #EE1D23;
                         border-radius: 8px;
                         font-size: 16px;
                         flex-shrink: 0;
@@ -6067,7 +6072,7 @@
                         a {
                             font-size: 15px;
                             font-weight: 600;
-                            color: #008DC2;
+                            color: #EE1D23;
                             text-decoration: none;
                             transition: color 0.3s ease;
 
@@ -6163,7 +6168,7 @@
                 .table-of-contents {
                     background: #F9FAFB;
                     border: 1px solid #E5E7EB;
-                    border-left: 4px solid #008DC2;
+                    border-left: 4px solid #EE1D23;
                     border-radius: 6px;
                     padding: 20px;
                     margin: 30px 0;
@@ -6197,7 +6202,7 @@
                         #toggle-toc {
                             background: transparent;
                             border: 0;
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-size: 14px;
                             cursor: pointer;
                             padding: 4px 8px;
@@ -6254,7 +6259,7 @@
                                 border-radius: 4px;
 
                                 &:hover {
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                     padding-left: 8px;
                                     background: rgba(0, 141, 194, 0.05);
                                 }
@@ -6291,16 +6296,21 @@
 
                 h2 {
                     font-size: 28px;
-                    color: #008DC2;
-                    
+                    color: #EE1D23;
+
                     // Force tất cả thẻ con bên trong kế thừa font-size từ h2
                     // Để override các inline styles từ editor
                     * {
                         font-size: inherit !important;
                     }
-                    
+
                     // Đảm bảo các thẻ inline như span, b, strong, em cũng kế thừa
-                    span, b, strong, em, i, u {
+                    span,
+                    b,
+                    strong,
+                    em,
+                    i,
+                    u {
                         font-size: inherit !important;
                     }
                 }
@@ -6364,7 +6374,7 @@
                 }
 
                 a {
-                    color: #008DC2;
+                    color: #EE1D23;
                     text-decoration: none;
                     transition: color 0.3s ease;
 
@@ -6409,7 +6419,7 @@
                         line-height: 1.6;
                         padding: 12px 20px;
                         background: #F9FAFB;
-                        border-left: 3px solid #008DC2;
+                        border-left: 3px solid #EE1D23;
                         border-radius: 6px;
                         text-align: center;
                         max-width: 100%;
@@ -6446,7 +6456,7 @@
                 }
 
                 blockquote {
-                    border-left: 4px solid #008DC2;
+                    border-left: 4px solid #EE1D23;
                     padding-left: 20px;
                     margin: 25px 0;
                     font-style: italic;
@@ -6477,7 +6487,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 50%;
-                            background: #008DC2;
+                            background: #EE1D23;
                             color: #fff;
                             display: flex;
                             align-items: center;
@@ -6558,7 +6568,7 @@
             .aside-title {
                 font-size: 20px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0 0 20px 0;
                 padding-bottom: 15px;
                 border-bottom: 2px solid #E5E7EB;
@@ -6624,7 +6634,7 @@
                                 overflow: hidden;
 
                                 &:hover {
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                 }
                             }
                         }
@@ -6659,7 +6669,7 @@
             .aside-title {
                 font-size: 20px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0 0 20px 0;
                 padding-bottom: 15px;
                 border-bottom: 2px solid #E5E7EB;
@@ -6700,7 +6710,7 @@
 
                         &:focus {
                             outline: none;
-                            border-color: #008DC2;
+                            border-color: #EE1D23;
                             box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                         }
 
@@ -6726,7 +6736,7 @@
                         font-weight: 600;
                         font-family: var(--second-font, 'Arial', sans-serif);
                         color: #fff;
-                        background: linear-gradient(135deg, #008DC2 0%, #0070A3 100%);
+                        background: linear-gradient(135deg, #EE1D23 0%, #0070A3 100%);
                         border: none;
                         border-radius: 8px;
                         cursor: pointer;
@@ -7083,7 +7093,7 @@
                 display: block;
                 width: 100%;
                 padding: 14px 20px;
-                background: #008DC2;
+                background: #EE1D23;
                 color: #fff;
                 font-size: 15px;
                 font-weight: 700;
@@ -7119,7 +7129,7 @@
                 }
 
                 &.btn-form-tu-van {
-                    background: #008DC2;
+                    background: #EE1D23;
                     box-shadow: 0 4px 12px rgba(0, 141, 194, 0.3);
 
                     &:hover {
@@ -7190,7 +7200,7 @@
         .overview-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 30px;
             line-height: 1.4;
 
@@ -7225,7 +7235,7 @@
             flex-direction: column;
             gap: 25px;
             padding: 20px;
-            border-left: 3px solid #008DC2;
+            border-left: 3px solid #EE1D23;
 
             @media (max-width: 768px) {
                 gap: 20px;
@@ -7263,7 +7273,7 @@
                     .feature-title {
                         font-size: 18px;
                         font-weight: 600;
-                        color: #008DC2;
+                        color: #EE1D23;
                         margin-bottom: 8px;
                         line-height: 1.4;
 
@@ -7318,7 +7328,7 @@
     padding-top: 35px;
     padding-bottom: 80px;
     background: #F8FBFF;
-    border-top: 4px solid #008DC2;
+    border-top: 4px solid #EE1D23;
     border-radius: 0 0 12px 12px;
 
     @media (max-width: 768px) {
@@ -7329,7 +7339,7 @@
     .suitable-title {
         font-size: 36px;
         font-weight: 700;
-        color: #008DC2;
+        color: #EE1D23;
         text-align: center;
         margin-bottom: 50px;
         line-height: 1.4;
@@ -7357,7 +7367,7 @@
 
         .suitable-card {
             background: #fff;
-            border: 2px solid #008DC2;
+            border: 2px solid #EE1D23;
             border-radius: 12px;
             padding: 30px 25px;
             padding-bottom: 50px;
@@ -7460,7 +7470,7 @@
                             transform: translateY(-50%);
                             width: 8px;
                             height: 8px;
-                            background: #008DC2;
+                            background: #EE1D23;
                             border-radius: 50%;
                         }
                     }
@@ -7471,7 +7481,7 @@
                 display: inline-block;
                 padding: 12px 20px;
                 background: #EFF6FF;
-                color: #008DC2;
+                color: #EE1D23;
                 text-align: center;
                 border-radius: 100px;
                 font-size: 15px;
@@ -7486,7 +7496,7 @@
                 }
 
                 &:hover {
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     text-decoration: none;
                 }
@@ -7506,7 +7516,7 @@
     .advantage-title {
         font-size: 36px;
         font-weight: 700;
-        color: #008DC2;
+        color: #EE1D23;
         text-align: center;
         margin-bottom: 80px;
         line-height: 1.4;
@@ -7658,7 +7668,7 @@
 
 .panel-major-consultation {
     padding: 80px 0;
-    background: #008DC2;
+    background: #EE1D23;
 
     @media (max-width: 768px) {
         padding: 50px 0;
@@ -7807,7 +7817,7 @@
     .learn-title {
         font-size: 36px;
         font-weight: 700;
-        color: #008DC2;
+        color: #EE1D23;
         text-align: center;
         margin-bottom: 20px;
         line-height: 1.4;
@@ -7879,19 +7889,19 @@
             }
 
             &.uk-active {
-                color: #008DC2;
-                border-bottom-color: #008DC2;
+                color: #EE1D23;
+                border-bottom-color: #EE1D23;
 
                 i {
-                    color: #008DC2;
+                    color: #EE1D23;
                 }
             }
 
             &:hover {
-                color: #008DC2;
+                color: #EE1D23;
 
                 i {
-                    color: #008DC2;
+                    color: #EE1D23;
                 }
             }
         }
@@ -7972,7 +7982,7 @@
                     .learn-card-title {
                         font-size: 20px;
                         font-weight: 700;
-                        color: #008DC2;
+                        color: #EE1D23;
                         line-height: 1.4;
                         margin: 0;
                         flex: 1;
@@ -8009,7 +8019,7 @@
     .career-title {
         font-size: 36px;
         font-weight: 700;
-        color: #008DC2;
+        color: #EE1D23;
         text-align: center;
         margin-bottom: 20px;
         line-height: 1.3;
@@ -8243,7 +8253,7 @@
 
                 &:first-child {
                     i {
-                        color: #008DC2;
+                        color: #EE1D23;
                     }
                 }
 
@@ -8426,7 +8436,7 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                border: 2px solid #008DC2;
+                border: 2px solid #EE1D23;
 
                 @media (max-width: 768px) {
                     padding: 25px 20px;
@@ -8444,7 +8454,7 @@
                         height: 80px;
                         flex-shrink: 0;
                         border-radius: 50%;
-                        border: 3px solid #008DC2;
+                        border: 3px solid #EE1D23;
                         overflow: hidden;
                         display: flex;
                         align-items: center;
@@ -8476,7 +8486,7 @@
 
                         .school-slogan {
                             font-size: 15px;
-                            color: #008DC2;
+                            color: #EE1D23;
                             margin: 0;
                             line-height: 1.4;
                         }
@@ -8487,7 +8497,7 @@
                         top: 0;
                         right: 0;
                         display: inline-block;
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
                         padding: 6px 16px;
                         border-radius: 20px;
@@ -8507,11 +8517,11 @@
                         line-height: 1.6;
 
                         strong {
-                            color: #008DC2;
+                            color: #EE1D23;
                         }
 
                         &.school-tuition-highlight {
-                            border: 2px dashed #008DC2;
+                            border: 2px dashed #EE1D23;
                             padding: 8px 12px;
                             border-radius: 8px;
                             background: rgba(0, 141, 194, 0.05);
@@ -8563,7 +8573,7 @@
                 border-collapse: collapse;
 
                 thead {
-                    background: #008DC2;
+                    background: #EE1D23;
 
                     tr th {
                         padding: 15px;
@@ -8581,7 +8591,7 @@
                                 position: sticky;
                                 left: 0;
                                 z-index: 10;
-                                background: #008DC2;
+                                background: #EE1D23;
                             }
                         }
                     }
@@ -8625,7 +8635,7 @@
                             }
 
                             strong {
-                                color: #008DC2;
+                                color: #EE1D23;
                             }
 
                             .school-name-link {
@@ -8795,7 +8805,7 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                border: 2px solid #008DC2;
+                border: 2px solid #EE1D23;
 
                 @media (max-width: 768px) {
                     padding: 25px 20px;
@@ -8813,7 +8823,7 @@
                         height: 80px;
                         flex-shrink: 0;
                         border-radius: 50%;
-                        border: 3px solid #008DC2;
+                        border: 3px solid #EE1D23;
                         overflow: hidden;
                         display: flex;
                         align-items: center;
@@ -8845,7 +8855,7 @@
 
                         .school-slogan {
                             font-size: 15px;
-                            color: #008DC2;
+                            color: #EE1D23;
                             margin: 0;
                             line-height: 1.4;
                         }
@@ -8856,7 +8866,7 @@
                         top: 0;
                         right: 0;
                         display: inline-block;
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
                         padding: 6px 16px;
                         border-radius: 20px;
@@ -8876,11 +8886,11 @@
                         line-height: 1.6;
 
                         strong {
-                            color: #008DC2;
+                            color: #EE1D23;
                         }
 
                         &.school-tuition-highlight {
-                            border: 2px dashed #008DC2;
+                            border: 2px dashed #EE1D23;
                             padding: 8px 12px;
                             border-radius: 8px;
                             background: rgba(0, 141, 194, 0.05);
@@ -8936,7 +8946,7 @@
                 border-collapse: collapse;
 
                 thead {
-                    background: #008DC2;
+                    background: #EE1D23;
 
                     tr th {
                         padding: 15px;
@@ -8954,7 +8964,7 @@
                                 position: sticky;
                                 left: 0;
                                 z-index: 10;
-                                background: #008DC2;
+                                background: #EE1D23;
                             }
                         }
                     }
@@ -8998,7 +9008,7 @@
                             }
 
                             strong {
-                                color: #008DC2;
+                                color: #EE1D23;
                             }
 
                             .school-name-link {
@@ -9142,7 +9152,7 @@
         .major-detail-title {
             font-size: 28px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 15px 0;
             line-height: 1.3;
 
@@ -9198,7 +9208,7 @@
         .info-box {
             background: #fff;
             border: 1px solid #E5E7EB;
-            border-top: 3px solid #008DC2;
+            border-top: 3px solid #EE1D23;
             border-radius: 8px;
             padding: 20px 15px;
             text-align: left;
@@ -9225,7 +9235,7 @@
             .info-box-value {
                 font-size: 16px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
 
                 @media (max-width: 480px) {
                     font-size: 14px;
@@ -9283,7 +9293,7 @@
                             transform: translateY(-50%);
                             width: 5px;
                             height: 5px;
-                            background: #008DC2;
+                            background: #EE1D23;
                         }
 
                         @media (max-width: 768px) {
@@ -9303,7 +9313,7 @@
         .section-title {
             font-size: 24px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 15px 0;
             line-height: 1.3;
 
@@ -9347,7 +9357,7 @@
                 }
 
                 i {
-                    color: #008DC2;
+                    color: #EE1D23;
                     font-size: 18px;
                     margin-right: 8px;
                     display: inline-block;
@@ -9395,7 +9405,7 @@
             min-height: 400px;
             display: flex;
             flex-direction: column;
-            border: 2px solid #008DC2;
+            border: 2px solid #EE1D23;
 
             @media (max-width: 960px) {
                 min-height: auto;
@@ -9440,7 +9450,7 @@
                 }
 
                 i {
-                    color: #008DC2;
+                    color: #EE1D23;
                     font-size: 18px;
                     flex-shrink: 0;
                     margin-top: 2px;
@@ -9489,7 +9499,7 @@
             }
 
             .sidebar-header {
-                background: #008DC2;
+                background: #EE1D23;
                 padding: 15px 20px;
 
                 .sidebar-title {
@@ -9525,7 +9535,7 @@
                     }
 
                     i {
-                        color: #008DC2;
+                        color: #EE1D23;
                         font-size: 20px;
                         flex-shrink: 0;
                     }
@@ -9682,7 +9692,7 @@
         .school-intro-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 25px;
             line-height: 1.3;
 
@@ -9915,7 +9925,7 @@
         .announce-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 15px;
             line-height: 1.3;
 
@@ -10024,7 +10034,7 @@
 
                     i {
                         font-size: 14px;
-                        color: #008DC2;
+                        color: #EE1D23;
                         transition: transform 0.3s ease;
                     }
 
@@ -10067,7 +10077,7 @@
                             list-style-type: disc;
 
                             &::marker {
-                                color: #008DC2;
+                                color: #EE1D23;
                             }
                         }
                     }
@@ -10110,7 +10120,7 @@
         .suitable-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 15px;
             line-height: 1.3;
 
@@ -10273,7 +10283,7 @@
         .advantage-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 15px;
             line-height: 1.3;
 
@@ -10312,7 +10322,7 @@
 
     .advantage-card {
         background: #EEF3FF;
-        border: 1px solid #008DC2;
+        border: 1px solid #EE1D23;
         border-radius: 12px;
         padding: 25px;
         position: relative;
@@ -10363,7 +10373,7 @@
 
                 i {
                     font-size: 32px;
-                    color: #008DC2;
+                    color: #EE1D23;
 
                     @media (max-width: 768px) {
                         font-size: 28px;
@@ -10412,7 +10422,7 @@
                 display: inline-flex;
                 align-items: center;
                 font-size: 14px;
-                color: #008DC2;
+                color: #EE1D23;
                 text-decoration: none;
                 font-weight: 500;
                 transition: all 0.3s ease;
@@ -10428,7 +10438,7 @@
                 }
 
                 &:hover {
-                    background: linear-gradient(90deg, #008DC2 0%, #E31E24 50%, #008DC2 100%);
+                    background: linear-gradient(90deg, #EE1D23 0%, #E31E24 50%, #EE1D23 100%);
                     background-size: 200% auto;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
@@ -10569,7 +10579,7 @@ button {
 
 // School Degree Value Panel
 .panel-major-trial-banner {
-    background: #008DC2;
+    background: #EE1D23;
     padding: 60px 0;
     text-align: center;
 
@@ -10654,7 +10664,7 @@ button {
         .degree-value-title {
             font-size: 32px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 15px;
             line-height: 1.3;
 
@@ -10777,7 +10787,7 @@ button {
     .degree-notice-banner {
         .degree-notice-main-button {
             position: relative;
-            background: #008DC2;
+            background: #EE1D23;
             border-radius: 12px;
             padding: 40px 30px;
             text-align: center;
@@ -11009,7 +11019,7 @@ button {
         .majors-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 20px;
             line-height: 1.3;
 
@@ -11072,7 +11082,7 @@ button {
         .swiper-button-prev {
             width: 40px !important;
             height: 40px !important;
-            background: #008DC2 !important;
+            background: #EE1D23 !important;
             border-radius: 50% !important;
             color: #fff !important;
             margin-top: 0 !important;
@@ -11125,12 +11135,12 @@ button {
             .swiper-pagination-bullet {
                 width: 12px;
                 height: 12px;
-                background: #008DC2;
+                background: #EE1D23;
                 opacity: 0.3;
 
                 &.swiper-pagination-bullet-active {
                     opacity: 1;
-                    background: #008DC2;
+                    background: #EE1D23;
                 }
             }
         }
@@ -11146,7 +11156,7 @@ button {
 
     .major-card {
         background: #fff;
-        border: 1px solid #008DC2;
+        border: 1px solid #EE1D23;
         border-radius: 12px;
         overflow: hidden;
         height: 100%;
@@ -11206,7 +11216,7 @@ button {
                     transition: color 0.3s ease;
 
                     &:hover {
-                        color: #008DC2;
+                        color: #EE1D23;
                     }
                 }
             }
@@ -11236,7 +11246,7 @@ button {
 
                     i {
                         font-size: 18px;
-                        color: #008DC2;
+                        color: #EE1D23;
                         flex-shrink: 0;
                         width: 20px;
                         text-align: center;
@@ -11260,7 +11270,7 @@ button {
                     .info-value {
                         font-size: 14px;
                         font-weight: 600;
-                        color: #008DC2;
+                        color: #EE1D23;
 
                         @media (max-width: 768px) {
                             font-size: 13px;
@@ -11329,7 +11339,7 @@ button {
 // School Enrollment Panel
 .panel-school-enrollment {
     padding: 60px 0;
-    // background: linear-gradient(135deg, #008DC2 0%, #005A7F 100%);
+    // background: linear-gradient(135deg, #EE1D23 0%, #005A7F 100%);
     background-color: rgb(2, 83, 169, 0.9);
     position: relative;
     overflow: hidden;
@@ -11453,7 +11463,7 @@ button {
 
             .enrollment-stats {
                 background: linear-gradient(to right, #ECFEFF 0%, #ffffff 100%);
-                border-left: 3px solid #008DC2;
+                border-left: 3px solid #EE1D23;
                 border-radius: 10px 0 0 10px;
                 padding: 25px;
                 margin: 30px 0;
@@ -11478,7 +11488,7 @@ button {
                         display: block;
                         font-size: 32px;
                         font-weight: 700;
-                        color: #008DC2;
+                        color: #EE1D23;
                         margin-bottom: 5px;
 
                         @media (max-width: 768px) {
@@ -11539,7 +11549,7 @@ button {
                     }
 
                     i {
-                        color: #008DC2;
+                        color: #EE1D23;
                         font-size: 18px;
                         margin-top: 2px;
                         flex-shrink: 0;
@@ -11648,7 +11658,7 @@ button {
                     top: 0;
                     width: 40px;
                     height: 40px;
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     border-radius: 50%;
                     display: flex;
@@ -11814,7 +11824,7 @@ button {
 
                     &:focus {
                         outline: none;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                     }
 
@@ -11957,7 +11967,7 @@ button {
 
                                 &:focus {
                                     outline: none;
-                                    border-color: #008DC2;
+                                    border-color: #EE1D23;
                                     box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                                 }
 
@@ -12070,7 +12080,7 @@ button {
         .study-method-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 20px;
             line-height: 1.3;
 
@@ -12156,7 +12166,7 @@ button {
             .study-method-card-title {
                 font-size: 20px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0 0 15px;
                 line-height: 1.3;
 
@@ -12226,7 +12236,7 @@ button {
             .experience-title {
                 font-size: 24px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0 0 25px;
                 line-height: 1.3;
 
@@ -12269,7 +12279,7 @@ button {
                         &::before {
                             content: '\f00c';
                             font-family: 'FontAwesome';
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-size: 16px;
                             margin-top: 2px;
                             flex-shrink: 0;
@@ -12311,7 +12321,7 @@ button {
 // School Register Panel
 .panel-school-register {
     padding: 60px 0;
-    background: #008DC2;
+    background: #EE1D23;
     position: relative;
 
     @media (max-width: 768px) {
@@ -12485,7 +12495,7 @@ button {
 
                     &:focus {
                         outline: none;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                     }
 
@@ -12575,7 +12585,7 @@ button {
             .uk-modal-title {
                 font-size: 24px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0;
 
                 @media (max-width: 768px) {
@@ -12619,7 +12629,7 @@ button {
 
                         &:focus {
                             outline: none;
-                            border-color: #008DC2;
+                            border-color: #EE1D23;
                             box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                         }
                     }
@@ -12656,7 +12666,7 @@ button {
                 }
 
                 &.uk-button-primary {
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     border: none;
 
@@ -12681,7 +12691,7 @@ button {
         .school-title {
             font-size: 32px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin-bottom: 20px;
             line-height: 1.4;
 
@@ -12767,7 +12777,7 @@ button {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            border: 2px solid #008DC2;
+            border: 2px solid #EE1D23;
 
             &:hover {
                 transform: translateY(-5px);
@@ -12923,9 +12933,9 @@ button {
                     transition: all 0.2s ease;
 
                     &:hover {
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                     }
 
                     @media (max-width: 768px) {
@@ -12938,9 +12948,9 @@ button {
 
                 &.active {
                     span {
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                     }
                 }
 
@@ -13110,7 +13120,7 @@ button {
                         transition: color 0.3s ease;
 
                         &:hover {
-                            color: #008DC2;
+                            color: #EE1D23;
                         }
                     }
                 }
@@ -13185,9 +13195,9 @@ button {
 
                 &.active {
                     .page-link {
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                     }
                 }
 
@@ -13209,9 +13219,9 @@ button {
                     }
 
                     &:hover {
-                        background: #008DC2;
+                        background: #EE1D23;
                         color: #fff;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                     }
                 }
             }
@@ -13293,7 +13303,7 @@ button {
         .contact-form-title {
             font-size: 28px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 15px 0;
             line-height: 1.3;
 
@@ -13349,7 +13359,7 @@ button {
 
                     &:focus {
                         outline: none;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                     }
 
@@ -13375,7 +13385,7 @@ button {
                     font-weight: 600;
                     font-family: var(--second-font, 'Arial', sans-serif);
                     color: #fff;
-                    background: linear-gradient(135deg, #008DC2 0%, #0070A3 100%);
+                    background: linear-gradient(135deg, #EE1D23 0%, #0070A3 100%);
                     border: none;
                     border-radius: 8px;
                     cursor: pointer;
@@ -13430,7 +13440,7 @@ button {
         .contact-info-title {
             font-size: 28px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 30px 0;
             line-height: 1.3;
 
@@ -13479,7 +13489,7 @@ button {
                     }
 
                     &.contact-icon-email {
-                        color: #008DC2;
+                        color: #EE1D23;
                         background: rgba(0, 141, 194, 0.12);
                     }
 
@@ -13502,7 +13512,7 @@ button {
                     }
 
                     .contact-link {
-                        color: #008DC2;
+                        color: #EE1D23;
                         text-decoration: none;
                         font-size: 15px;
                         transition: all 0.2s ease;
@@ -13607,7 +13617,7 @@ button {
 // Override breadcrumb for intro page
 .page-breadcrumb-large {
     position: relative;
-    background: #008DC2;
+    background: #EE1D23;
     background-size: 200% 200%;
     animation: gradientShift 15s ease infinite;
     padding: 40px 0 40px;
@@ -13682,7 +13692,7 @@ button {
             .intro-block-1-title {
                 font-size: 42px;
                 font-weight: 800;
-                background: linear-gradient(135deg, #008DC2 0%, #00B9FF 100%);
+                background: linear-gradient(135deg, #EE1D23 0%, #00B9FF 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
@@ -13719,7 +13729,7 @@ button {
                         top: 12px;
                         width: 8px;
                         height: 8px;
-                        background: #008DC2;
+                        background: #EE1D23;
                         border-radius: 50%;
                     }
 
@@ -13729,7 +13739,7 @@ button {
                 }
 
                 strong {
-                    color: #008DC2;
+                    color: #EE1D23;
                     font-weight: 600;
                 }
             }
@@ -13783,7 +13793,7 @@ button {
 
                 i {
                     font-size: 100px;
-                    color: #008DC2;
+                    color: #EE1D23;
                     opacity: 0.4;
                     position: relative;
                     z-index: 1;
@@ -13835,7 +13845,7 @@ button {
             height: 100%;
             display: flex;
             flex-direction: column;
-            border: 3px solid #008DC2;
+            border: 3px solid #EE1D23;
             // border-top:0;
 
             @media (max-width: 768px) {
@@ -13850,7 +13860,7 @@ button {
             //     left: 0;
             //     right: 0;
             //     height: 5px;
-            //     background: linear-gradient(to right, #008DC2, #00B9FF);
+            //     background: linear-gradient(to right, #EE1D23, #00B9FF);
             // }
 
             &:hover {
@@ -13989,7 +13999,7 @@ button {
 // Block 6: Học viên feedback
 .panel-intro-block-6 {
     padding: 100px 0;
-    background: linear-gradient(135deg, #008DC2 0%, #00B9FF 50%, #008DC2 100%);
+    background: linear-gradient(135deg, #EE1D23 0%, #00B9FF 50%, #EE1D23 100%);
     background-size: 200% 200%;
     animation: gradientShift 15s ease infinite;
     position: relative;
@@ -14107,7 +14117,7 @@ button {
         .intro-block-6-title {
             font-size: 42px;
             font-weight: 800;
-            background: linear-gradient(135deg, #008DC2 0%, #00B9FF 100%);
+            background: linear-gradient(135deg, #EE1D23 0%, #00B9FF 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -14130,7 +14140,7 @@ button {
                 transform: translateX(-50%);
                 width: 100px;
                 height: 4px;
-                background: linear-gradient(to right, transparent, #008DC2, transparent);
+                background: linear-gradient(to right, transparent, #EE1D23, transparent);
                 border-radius: 2px;
             }
         }
@@ -14162,7 +14172,7 @@ button {
 
             .swiper-button-prev,
             .swiper-button-next {
-                color: #008DC2;
+                color: #EE1D23;
                 background: #fff;
                 width: 50px;
                 height: 50px;
@@ -14187,7 +14197,7 @@ button {
                 }
 
                 &:hover {
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     box-shadow: 0 6px 25px rgba(0, 141, 194, 0.3);
                     transform: scale(1.1);
@@ -14208,7 +14218,7 @@ button {
                 .swiper-pagination-bullet {
                     width: 12px;
                     height: 12px;
-                    background: #008DC2;
+                    background: #EE1D23;
                     opacity: 0.3;
                     transition: all 0.3s;
 
@@ -14245,13 +14255,13 @@ button {
                 left: 0;
                 right: 0;
                 height: 4px;
-                background: linear-gradient(to right, #008DC2, #00B9FF);
+                background: linear-gradient(to right, #EE1D23, #00B9FF);
             }
 
             &:hover {
                 transform: translateY(-8px);
                 box-shadow: 0 15px 50px rgba(0, 141, 194, 0.2);
-                border-color: #008DC2;
+                border-color: #EE1D23;
             }
 
             .intro-feedback-header {
@@ -14269,7 +14279,7 @@ button {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    border: 3px solid #008DC2;
+                    border: 3px solid #EE1D23;
                     box-shadow: 0 4px 15px rgba(0, 141, 194, 0.2);
 
                     @media (max-width: 768px) {
@@ -14287,7 +14297,7 @@ button {
                     }
 
                     &.no-image {
-                        background: linear-gradient(135deg, #008DC2 0%, #00B9FF 100%);
+                        background: linear-gradient(135deg, #EE1D23 0%, #00B9FF 100%);
                         color: #fff;
                         font-weight: 700;
                         font-size: 28px;
@@ -14370,7 +14380,7 @@ button {
                         left: 0;
                         top: -5px;
                         font-size: 60px;
-                        color: #008DC2;
+                        color: #EE1D23;
                         opacity: 0.2;
                         font-family: Georgia, serif;
                         line-height: 1;
@@ -14412,7 +14422,7 @@ button {
         .intro-schools-title {
             font-size: 36px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0;
             line-height: 1.3;
             position: relative;
@@ -14430,7 +14440,7 @@ button {
                 transform: translateX(-50%);
                 width: 80px;
                 height: 4px;
-                background: linear-gradient(to right, #008DC2, #00B9FF);
+                background: linear-gradient(to right, #EE1D23, #00B9FF);
                 border-radius: 2px;
 
                 @media (max-width: 768px) {
@@ -14477,7 +14487,7 @@ button {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            border: 2px solid #008DC2;
+            border: 2px solid #EE1D23;
 
             @media (max-width: 768px) {
                 padding: 20px 15px;
@@ -14487,7 +14497,7 @@ button {
             &:hover {
                 transform: translateY(-8px);
                 box-shadow: 0 8px 25px rgba(0, 141, 194, 0.15);
-                border-color: #008DC2;
+                border-color: #EE1D23;
             }
 
             .intro-school-logo {
@@ -14540,7 +14550,7 @@ button {
 
                 .intro-school-short-name {
                     font-size: 14px;
-                    color: #008DC2;
+                    color: #EE1D23;
                     font-weight: 600;
                     margin: 0;
                     line-height: 1.4;
@@ -14594,7 +14604,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -14629,7 +14639,7 @@ button {
         border-bottom: 1px solid #f0f0f0;
 
         .download-roadmap-title {
-            color: #008DC2;
+            color: #EE1D23;
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 10px 0;
@@ -14874,7 +14884,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -14908,7 +14918,7 @@ button {
         border-bottom: 1px solid #f0f0f0;
 
         .download-roadmap-title {
-            color: #008DC2;
+            color: #EE1D23;
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 10px 0;
@@ -14967,7 +14977,7 @@ button {
 
                 &:focus {
                     outline: none;
-                    border-color: #008DC2;
+                    border-color: #EE1D23;
                 }
             }
 
@@ -14976,7 +14986,7 @@ button {
             input[type="submit"] {
                 width: 100%;
                 padding: 14px 20px;
-                background: #008DC2;
+                background: #EE1D23;
                 color: #fff;
                 border: none;
                 border-radius: 6px;
@@ -15020,7 +15030,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -15054,7 +15064,7 @@ button {
         border-bottom: 1px solid #f0f0f0;
 
         .download-roadmap-title {
-            color: #008DC2;
+            color: #EE1D23;
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 10px 0;
@@ -15113,7 +15123,7 @@ button {
 
                 &:focus {
                     outline: none;
-                    border-color: #008DC2;
+                    border-color: #EE1D23;
                 }
             }
 
@@ -15122,7 +15132,7 @@ button {
             input[type="submit"] {
                 width: 100%;
                 padding: 14px 20px;
-                background: #008DC2;
+                background: #EE1D23;
                 color: #fff;
                 border: none;
                 border-radius: 6px;
@@ -15166,7 +15176,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -15201,7 +15211,7 @@ button {
         border-bottom: 1px solid #f0f0f0;
 
         .download-roadmap-title {
-            color: #008DC2;
+            color: #EE1D23;
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 10px 0;
@@ -15229,7 +15239,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -15264,7 +15274,7 @@ button {
         border-bottom: 1px solid #f0f0f0;
 
         .download-roadmap-title {
-            color: #008DC2;
+            color: #EE1D23;
             font-size: 18px;
             font-weight: 700;
             margin: 0 0 10px 0;
@@ -15447,7 +15457,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -15482,7 +15492,7 @@ button {
         border-bottom: 1px solid #f0f0f0;
 
         .download-roadmap-title {
-            color: #008DC2;
+            color: #EE1D23;
             font-size: 22px;
             font-weight: 700;
             margin: 0 0 10px 0;
@@ -15545,7 +15555,7 @@ button {
 
                 &:focus {
                     outline: none;
-                    border-color: #008DC2;
+                    border-color: #EE1D23;
                     box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                 }
 
@@ -15591,7 +15601,7 @@ button {
             .formio-submit-button {
                 width: 100%;
                 padding: 14px 20px;
-                background: #008DC2;
+                background: #EE1D23;
                 color: #fff;
                 border: none;
                 border-radius: 6px;
@@ -15852,7 +15862,7 @@ button {
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        background: #008DC2;
+        background: #EE1D23;
         padding: 10px;
     }
 
@@ -16424,7 +16434,7 @@ button {
 
     // Class cho sản phẩm có khuyến mãi
     &.has-discount {
-        border: 2px solid #008DC2;
+        border: 2px solid #EE1D23;
 
         .course-card-image::before {
             content: '';
@@ -16640,9 +16650,9 @@ button {
             }
 
             .btn-view-detail {
-                background: #008DC2;
+                background: #EE1D23;
                 color: #fff;
-                border: 2px solid #008DC2;
+                border: 2px solid #EE1D23;
 
                 &:hover {
                     background: #0073a3;
@@ -16768,7 +16778,7 @@ button {
 
                 .quote-icon {
                     font-size: 48px;
-                    color: #008DC2;
+                    color: #EE1D23;
                     line-height: 1;
                     margin-bottom: 10px;
                     font-family: Georgia, serif;
@@ -16794,7 +16804,7 @@ button {
                         }
 
                         &.avatar-placeholder {
-                            background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+                            background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -16880,7 +16890,7 @@ button {
                         color: #333;
 
                         i {
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-size: 18px;
                             width: 24px;
                             text-align: center;
@@ -17023,11 +17033,11 @@ button {
 
                     &.btn-consult {
                         background: #fff;
-                        color: #008DC2;
-                        border: 2px solid #008DC2;
+                        color: #EE1D23;
+                        border: 2px solid #EE1D23;
 
                         &:hover {
-                            background: #008DC2;
+                            background: #EE1D23;
                             color: #fff;
                             transform: translateY(-2px);
                             box-shadow: 0 4px 12px rgba(0, 141, 194, 0.3);
@@ -17186,7 +17196,7 @@ button {
                     .lecturer-position {
                         font-size: 16px;
                         font-weight: 500;
-                        color: #008DC2;
+                        color: #EE1D23;
                         margin: 0 0 15px;
 
                         @media (max-width: 768px) {
@@ -17214,7 +17224,7 @@ button {
                                     content: "•";
                                     position: absolute;
                                     left: 0;
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                     font-size: 20px;
                                     line-height: 1;
                                 }
@@ -17241,7 +17251,7 @@ button {
                                     content: "•";
                                     position: absolute;
                                     left: 0;
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                     font-size: 20px;
                                     line-height: 1;
                                 }
@@ -17264,7 +17274,7 @@ button {
                                     content: counter(item) ".";
                                     position: absolute;
                                     left: 0;
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                     font-weight: 600;
                                     font-size: 15px;
                                     line-height: 1.7;
@@ -17295,7 +17305,7 @@ button {
                     .lecturer-photo-placeholder {
                         width: 100%;
                         aspect-ratio: 3/4;
-                        background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+                        background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
                         border-radius: 12px;
                         border: 4px solid #E3F2FD;
                         display: flex;
@@ -17381,7 +17391,7 @@ button {
 
                     // Has discount state
                     &.has-discount {
-                        border: 2px solid #008DC2;
+                        border: 2px solid #EE1D23;
                     }
 
                     .related-link {
@@ -17409,7 +17419,7 @@ button {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+                            background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
 
                             .vstep-logo {
                                 color: #fff;
@@ -17506,7 +17516,7 @@ button {
                     justify-content: flex-start;
                     gap: 10px;
                     padding: 16px 20px;
-                    background: #008DC2;
+                    background: #EE1D23;
                     color: #fff;
                     font-size: 16px;
                     font-weight: 700;
@@ -17560,7 +17570,7 @@ button {
 
                             i {
                                 font-size: 18px;
-                                color: #008DC2;
+                                color: #EE1D23;
                                 margin-top: 2px;
                                 flex-shrink: 0;
                                 width: 20px;
@@ -17633,7 +17643,7 @@ button {
         color: #333;
         margin: 0 0 25px;
         padding-bottom: 15px;
-        border-bottom: 2px solid #008DC2;
+        border-bottom: 2px solid #EE1D23;
 
         @media (max-width: 768px) {
             font-size: 18px;
@@ -17687,7 +17697,7 @@ button {
                 }
 
                 &::-webkit-scrollbar-thumb {
-                    background: #008DC2;
+                    background: #EE1D23;
                     border-radius: 10px;
 
                     &:hover {
@@ -17713,7 +17723,7 @@ button {
                 }
 
                 &:hover {
-                    border-color: #008DC2;
+                    border-color: #EE1D23;
                     background: #f8f9fa;
                 }
 
@@ -17723,7 +17733,7 @@ button {
                     cursor: pointer;
                     margin: 0;
                     flex-shrink: 0;
-                    accent-color: #008DC2;
+                    accent-color: #EE1D23;
 
                     @media (max-width: 768px) {
                         width: 16px;
@@ -17732,7 +17742,7 @@ button {
 
                     &:checked {
                         +.checkbox-label {
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-weight: 600;
                         }
                     }
@@ -17760,7 +17770,7 @@ button {
 
                     .school-short-name {
                         font-weight: 700;
-                        color: #008DC2;
+                        color: #EE1D23;
                         font-size: 13px;
 
                         @media (max-width: 768px) {
@@ -17779,7 +17789,7 @@ button {
                 }
 
                 &:has(input[type="checkbox"]:checked) {
-                    border-color: #008DC2;
+                    border-color: #EE1D23;
                     background: #E0F2FE;
                 }
             }
@@ -17826,8 +17836,8 @@ button {
 
                 &:hover {
                     background: #e9ecef;
-                    border-color: #008DC2;
-                    color: #008DC2;
+                    border-color: #EE1D23;
+                    color: #EE1D23;
                 }
             }
         }
@@ -17868,7 +17878,7 @@ button {
     .sidebar-title {
         font-size: 18px;
         font-weight: 700;
-        color: #008DC2;
+        color: #EE1D23;
         margin: 0 0 20px;
         text-align: center;
         text-transform: uppercase;
@@ -17898,7 +17908,7 @@ button {
             display: flex;
             align-items: center;
             gap: 15px;
-            background: #008DC2;
+            background: #EE1D23;
             color: #fff;
             padding: 15px 20px;
             border-radius: 8px;
@@ -18159,7 +18169,7 @@ button {
 
     // Style lại khối CTA cho trang lịch
     .post-contact-block {
-        background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+        background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
         border-radius: 16px;
         padding: 25px 40px;
         box-shadow: 0 8px 24px rgba(0, 141, 194, 0.25);
@@ -18270,7 +18280,7 @@ button {
         }
 
         &::-webkit-scrollbar-thumb {
-            background: #008DC2;
+            background: #EE1D23;
             border-radius: 10px;
 
             &:hover {
@@ -18380,7 +18390,7 @@ button {
                             position: sticky;
                             left: 0;
                             z-index: 5;
-                            background: #008DC2;
+                            background: #EE1D23;
                             font-weight: 600;
                             color: #fff;
                             min-width: 125px;
@@ -18421,8 +18431,8 @@ button {
                             z-index: 4;
                             background: #fff;
                             font-weight: 600;
-                            color: #008DC2;
-                            border-right: 2px solid #008DC2;
+                            color: #EE1D23;
+                            border-right: 2px solid #EE1D23;
                             box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
 
                             @media (max-width: 768px) {
@@ -18536,7 +18546,7 @@ button {
         .success-icon-circle {
             width: 100px;
             height: 100px;
-            background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+            background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -18563,7 +18573,7 @@ button {
     .thank-you-title {
         font-size: 36px;
         font-weight: 700;
-        color: #008DC2;
+        color: #EE1D23;
         margin: 0 0 30px;
         line-height: 1.3;
 
@@ -18611,7 +18621,7 @@ button {
             align-items: center;
             gap: 10px;
             padding: 14px 30px;
-            background: #008DC2;
+            background: #EE1D23;
             color: #fff;
             text-decoration: none;
             border-radius: 8px;
@@ -18751,7 +18761,7 @@ button {
                             transition: color 0.3s ease;
 
                             &:hover {
-                                color: #008DC2;
+                                color: #EE1D23;
                             }
                         }
                     }
@@ -18794,7 +18804,7 @@ button {
                         }
 
                         .news-detail-button {
-                            background: #008DC2;
+                            background: #EE1D23;
                             color: #fff;
                             font-size: 13px;
                             font-weight: 600;
@@ -18897,7 +18907,7 @@ button {
             letter-spacing: 0.5px;
             position: relative;
             padding-bottom: 8px;
-            border-bottom: 1px solid #008DC2;
+            border-bottom: 1px solid #EE1D23;
 
             @media (max-width: 768px) {
                 font-size: 14px;
@@ -18912,7 +18922,7 @@ button {
                 left: 0;
                 width: 40px;
                 height: 2px;
-                background: #008DC2;
+                background: #EE1D23;
             }
         }
 
@@ -18957,7 +18967,7 @@ button {
                     }
 
                     &:hover {
-                        color: #008DC2;
+                        color: #EE1D23;
                     }
                 }
 
@@ -18988,27 +18998,27 @@ button {
                     }
 
                     &:checked {
-                        background-color: #008DC2;
-                        border-color: #008DC2;
+                        background-color: #EE1D23;
+                        border-color: #EE1D23;
                         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23fff' d='M10 3L4.5 8.5 2 6' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: 12px;
 
                         +label {
-                            color: #008DC2;
+                            color: #EE1D23;
                             font-weight: 600;
                         }
                     }
 
                     &:hover {
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 2px rgba(0, 141, 194, 0.1);
                     }
 
                     &:focus {
                         outline: none;
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 2px rgba(0, 141, 194, 0.2);
                     }
                 }
@@ -19030,7 +19040,7 @@ button {
                     display: inline-flex;
                     align-items: center;
                     gap: 6px;
-                    color: #008DC2;
+                    color: #EE1D23;
                     font-size: 13px;
                     font-weight: 600;
                     text-decoration: none;
@@ -19083,7 +19093,7 @@ button {
             }
 
             &.btn-primary {
-                background: #008DC2;
+                background: #EE1D23;
                 color: #fff;
                 margin-bottom: 8px;
 
@@ -19106,8 +19116,8 @@ button {
 
                 &:hover {
                     background: #f9fafb;
-                    border-color: #008DC2;
-                    color: #008DC2;
+                    border-color: #EE1D23;
+                    color: #EE1D23;
                     text-decoration: none;
                     transform: translateY(-1px);
                     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -19127,7 +19137,7 @@ button {
 
     /* Header chính (TRƯỜNG, THÁI NGUYÊN, HÀ NỘI, ...) */
     thead tr:first-child th {
-        background: #008DC2;
+        background: #EE1D23;
         color: white;
         font-weight: bold;
         padding: 12px 8px;
@@ -19137,11 +19147,11 @@ button {
 
     /* Header phụ (HẠN NHẬN HỒ SƠ, LỊCH KHAI GIẢNG) */
     thead tr:last-child th {
-        background: #008DC2;
+        background: #EE1D23;
         color: white;
         font-weight: bold;
         padding: 10px 8px;
-        border: 1px solid #008DC2;
+        border: 1px solid #EE1D23;
         text-align: center;
         font-size: 13px;
     }
@@ -19280,7 +19290,7 @@ button {
         .consultation-modal-title {
             font-size: 28px;
             font-weight: 700;
-            color: #008DC2;
+            color: #EE1D23;
             margin: 0 0 15px 0;
             text-align: center;
             line-height: 1.3;
@@ -19341,7 +19351,7 @@ button {
                     font-family: inherit;
 
                     &:focus {
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                     }
                 }
@@ -19358,7 +19368,7 @@ button {
                 input[type="submit"] {
                     width: 100%;
                     padding: 16px;
-                    background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+                    background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
                     color: #fff;
                     border: none;
                     border-radius: 8px;
@@ -19369,7 +19379,7 @@ button {
                     box-shadow: 0 4px 12px rgba(0, 141, 194, 0.3);
 
                     &:hover {
-                        background: linear-gradient(135deg, #0073a3 0%, #008DC2 100%);
+                        background: linear-gradient(135deg, #0073a3 0%, #EE1D23 100%);
                         box-shadow: 0 6px 16px rgba(0, 141, 194, 0.4);
                         transform: translateY(-2px);
                     }
@@ -19412,7 +19422,7 @@ button {
                     outline: none;
 
                     &:focus {
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                         box-shadow: 0 0 0 3px rgba(0, 141, 194, 0.1);
                     }
                 }
@@ -19426,7 +19436,7 @@ button {
             .consultation-form-submit {
                 width: 100%;
                 padding: 16px;
-                background: linear-gradient(135deg, #008DC2 0%, #00a3d9 100%);
+                background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
                 color: #fff;
                 border: none;
                 border-radius: 8px;
@@ -19441,7 +19451,7 @@ button {
                 box-shadow: 0 4px 12px rgba(0, 141, 194, 0.3);
 
                 &:hover {
-                    background: linear-gradient(135deg, #0073a3 0%, #008DC2 100%);
+                    background: linear-gradient(135deg, #0073a3 0%, #EE1D23 100%);
                     box-shadow: 0 6px 16px rgba(0, 141, 194, 0.4);
                     transform: translateY(-2px);
                 }
@@ -19480,7 +19490,7 @@ button {
 .panel-post-detail {
     .uk-width-large-3-4 {
         .post-contact-block {
-            background: linear-gradient(135deg, #008DC2 0%, #006A9C 100%);
+            background: linear-gradient(135deg, #EE1D23 0%, #006A9C 100%);
             border-radius: 16px;
             padding: 45px 40px;
             box-shadow: 0 10px 30px rgba(0, 141, 194, 0.3);
@@ -19658,7 +19668,7 @@ button {
                     &:hover {
                         transform: scale(1.08);
                         box-shadow: 0 8px 25px rgba(0, 141, 194, 0.25);
-                        border-color: #008DC2;
+                        border-color: #EE1D23;
                     }
 
                     @media (max-width: 768px) {
@@ -19685,7 +19695,7 @@ button {
                     .center-title {
                         font-size: 24px;
                         font-weight: 700;
-                        color: #008DC2;
+                        color: #EE1D23;
                         margin: 0 0 18px 0;
                         line-height: 1.4;
                         letter-spacing: 0.3px;
@@ -19723,7 +19733,7 @@ button {
                         }
 
                         a {
-                            color: #008DC2;
+                            color: #EE1D23;
                             text-decoration: none;
                             font-weight: 600;
                             transition: all 0.3s ease;
@@ -19765,7 +19775,7 @@ button {
             .related-title {
                 font-size: 28px;
                 font-weight: 700;
-                color: #008DC2;
+                color: #EE1D23;
                 margin: 0 0 30px 0;
                 line-height: 1.3;
 
@@ -19844,7 +19854,7 @@ button {
                                 transition: color 0.3s ease;
 
                                 &:hover {
-                                    color: #008DC2;
+                                    color: #EE1D23;
                                 }
                             }
                         }
@@ -19908,7 +19918,7 @@ button {
 
             i {
                 margin-right: 5px;
-                color: #008dc2;
+                color: #EE1D23;
             }
         }
 
@@ -19921,14 +19931,14 @@ button {
                 display: inline-block;
                 padding: 6px 14px;
                 background-color: #f5f5f5;
-                color: #008dc2;
+                color: #EE1D23;
                 text-decoration: none;
                 border-radius: 4px;
                 font-size: 13px;
                 transition: all 0.3s ease;
 
                 &:hover {
-                    background-color: #008dc2;
+                    background-color: #EE1D23;
                     color: #fff;
                     transform: translateY(-2px);
                     box-shadow: 0 2px 8px rgba(0, 141, 194, 0.3);
