@@ -35,12 +35,14 @@
 
 {{-- Preload LCP image for homepage --}}
 @if(isset($ishome) && $ishome && isset($slides[App\Enums\SlideEnum::MAIN]['item'][0]['image']))
-    <link rel="preload" as="image" href="{{ $slides[App\Enums\SlideEnum::MAIN]['item'][0]['image'] }}" fetchpriority="high">
+<link rel="preload" as="image" href="{{ $slides[App\Enums\SlideEnum::MAIN]['item'][0]['image'] }}" fetchpriority="high">
 @endif
 
 {{-- Google Fonts with display=swap for better performance --}}
 <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Questrial&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Questrial&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet"></noscript>
+<noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Questrial&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</noscript>
 
 {{-- <meta name="p:domain_verify" content="bbf6b87e5e83b6aa8d4bc6dab42cba0a"/> --}}
 
@@ -51,7 +53,9 @@
 
 {{-- FAQ Schema JSON-LD (for Post, Major, and School detail pages) --}}
 @if(isset($faqSchema) && !empty($faqSchema))
-    <script type="application/ld+json">
-    {!! $faqSchema !!}
-    </script>
+<script type="application/ld+json">
+    {
+        !!$faqSchema!!
+    }
+</script>
 @endif
