@@ -2425,11 +2425,11 @@
 
     .schools-cta-button {
         display: inline-block;
-        background: #DC2626;
+        background: #008dc2;
         color: #fff;
-        border: none;
+        border: 2px solid #fff;
         padding: 12px 35px;
-        border-radius: 8px;
+        border-radius: 100px;
         font-size: 16px;
         font-weight: 700;
         text-transform: uppercase;
@@ -4623,7 +4623,7 @@
                             }
 
                             a {
-                                color: #1F2937;
+                                color: #008dc2;
                                 text-decoration: none;
                                 transition: color 0.3s ease;
 
@@ -4785,7 +4785,7 @@
                     }
 
                     a {
-                        color: #1F2937;
+                        color: #008dc2;
                         text-decoration: none;
                         transition: color 0.3s ease;
 
@@ -5753,7 +5753,7 @@
                         }
 
                         a {
-                            color: #1F2937;
+                            color: #008dc2;
                             text-decoration: none;
                             transition: color 0.3s ease;
 
@@ -7421,7 +7421,7 @@
             .suitable-card-title {
                 font-size: 20px;
                 font-weight: 700;
-                color: #333;
+                color: #008dc2;
                 text-align: center;
                 margin-bottom: 15px;
                 line-height: 1.4;
@@ -7774,8 +7774,9 @@
                 align-items: center;
                 gap: 12px;
                 padding: 16px 40px;
-                background: #E31E24;
+                background: #008dc2;
                 color: #fff;
+                border: 2px solid #fff;
                 font-size: 18px;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -7985,7 +7986,7 @@
                     .learn-card-title {
                         font-size: 20px;
                         font-weight: 700;
-                        color: #EE1D23;
+                        color: #008dc2;
                         line-height: 1.4;
                         margin: 0;
                         flex: 1;
@@ -8154,7 +8155,7 @@
             .career-job-title {
                 font-size: 16px;
                 font-weight: 700;
-                color: #333;
+                color: #008dc2;
                 margin-bottom: 8px;
                 line-height: 1.3;
 
@@ -8847,7 +8848,7 @@
                         .school-name {
                             font-size: 24px;
                             font-weight: 700;
-                            color: #333;
+                            color: #008dc2;
                             margin: 0 0 8px 0;
                             line-height: 1.3;
 
@@ -9011,7 +9012,7 @@
                             }
 
                             strong {
-                                color: #EE1D23;
+                                color: #008dc2;
                             }
 
                             .school-name-link {
@@ -10015,7 +10016,7 @@
                     border: none;
                     font-size: 18px;
                     font-weight: 600;
-                    color: #333;
+                    color: #008dc2;
                     cursor: pointer;
                     display: flex;
                     justify-content: space-between;
@@ -10230,7 +10231,7 @@
             .suitable-card-title {
                 font-size: 20px;
                 font-weight: 700;
-                color: #333;
+                color: #008dc2;
                 margin-bottom: 12px;
                 line-height: 1.3;
 
@@ -10605,9 +10606,9 @@ button {
         }
 
         .trial-banner-button {
-            background: #E31E24;
+            background: #008dc2;
             color: #fff;
-            border: none;
+            border: 2px solid #fff;
             padding: 16px 40px;
             border-radius: 8px;
             font-size: 18px;
@@ -10834,10 +10835,11 @@ button {
             }
 
             .degree-notice-trial-button {
-                background: #DC143C;
+                background: #008dc2;
                 color: #fff;
+                border: 2px solid #fff;
                 padding: 14px 32px;
-                border-radius: 8px;
+                border-radius: 100px;
                 font-size: 16px;
                 font-weight: 600;
                 text-decoration: none;
@@ -11214,7 +11216,7 @@ button {
                 }
 
                 a {
-                    color: #333;
+                    color: #008dc2;
                     text-decoration: none;
                     transition: color 0.3s ease;
 
@@ -13388,7 +13390,7 @@ button {
                     font-weight: 600;
                     font-family: var(--second-font, 'Arial', sans-serif);
                     color: #fff;
-                    background: linear-gradient(135deg, #EE1D23 0%, #0070A3 100%);
+                    background: #EE1D23;
                     border: none;
                     border-radius: 8px;
                     cursor: pointer;
@@ -14534,7 +14536,7 @@ button {
                 .intro-school-name {
                     font-size: 18px;
                     font-weight: 700;
-                    color: #1F2937;
+                    color: #008dc2;
                     margin: 0 0 8px 0;
                     line-height: 1.4;
                     min-height: 50px;
@@ -16472,7 +16474,7 @@ button {
             }
 
             a {
-                color: #333;
+                color: #008dc2;
                 text-decoration: none;
                 transition: color 0.3s ease;
 
@@ -18169,7 +18171,7 @@ button {
 
     // Style lại khối CTA cho trang lịch
     .post-contact-block {
-        background: linear-gradient(135deg, #EE1D23 0%, #00a3d9 100%);
+        background: #EE1D23;
         border-radius: 16px;
         padding: 25px 40px;
         box-shadow: 0 8px 24px rgba(0, 141, 194, 0.25);
@@ -18390,7 +18392,7 @@ button {
                             position: sticky;
                             left: 0;
                             z-index: 5;
-                            background: #EE1D23;
+                            background: #008dc2;
                             font-weight: 600;
                             color: #fff;
                             min-width: 125px;
@@ -18432,7 +18434,7 @@ button {
                             background: #fff;
                             font-weight: 600;
                             color: #EE1D23;
-                            border-right: 2px solid #EE1D23;
+                            border-right: 2px solid #008dc2;
                             box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
 
                             @media (max-width: 768px) {
@@ -18901,7 +18903,7 @@ button {
         .filter-heading {
             font-size: 15px;
             font-weight: 700;
-            color: #1F2937;
+            color: #008dc2;
             margin: 0 0 12px 0;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -19137,7 +19139,7 @@ button {
 
     /* Header chính (TRƯỜNG, THÁI NGUYÊN, HÀ NỘI, ...) */
     thead tr:first-child th {
-        background: #EE1D23;
+        background: #008dc2;
         color: white;
         font-weight: bold;
         padding: 12px 8px;
@@ -19147,11 +19149,11 @@ button {
 
     /* Header phụ (HẠN NHẬN HỒ SƠ, LỊCH KHAI GIẢNG) */
     thead tr:last-child th {
-        background: #EE1D23;
+        background: #008dc2;
         color: white;
         font-weight: bold;
         padding: 10px 8px;
-        border: 1px solid #EE1D23;
+        border: 1px solid #008dc2;
         text-align: center;
         font-size: 13px;
     }
@@ -20055,7 +20057,7 @@ button {
         .intro-schools-title {
             font-size: 30px;
             font-weight: 700;
-            color: #1a1a2e;
+            color: #EE1D23;
             margin: 0;
 
             @media (max-width: 768px) {
@@ -20144,4 +20146,8 @@ button {
             margin: 0;
         }
     }
+}
+
+.advantage-card-title {
+    color: #008dc2 !important
 }
