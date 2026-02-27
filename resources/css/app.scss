@@ -6159,6 +6159,14 @@
                     color: #008DC2 !important;
                 }
 
+                a {
+                    color: #008DC2;
+
+                    &:hover {
+                        color: #006fa0;
+                    }
+                }
+
                 .post-description {
                     font-size: 18px;
                     color: #4B5563;
