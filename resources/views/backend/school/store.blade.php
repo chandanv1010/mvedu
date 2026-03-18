@@ -1002,21 +1002,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedIdsStr = selectedIds.map(id => String(id));
         const container = $('#majorsDetailsContainer');
         
-        // Get existing major IDs from DOM
-        const existingIds = [];
-        container.find('.major-item').each(function() {
-            const majorId = $(this).attr('data-major-id') || $(this).data('major-id');
-            if (majorId) {
-                existingIds.push(String(majorId));
-            }
-        });
-        
-        // Remove unselected majors
+        // Remove unselected majors first
         container.find('.major-item').each(function() {
             const majorId = $(this).attr('data-major-id') || $(this).data('major-id');
             const majorIdStr = String(majorId);
             if (majorId && !selectedIdsStr.includes(majorIdStr)) {
                 $(this).remove();
+            }
+        });
+        
+        // Get existing major IDs from DOM AFTER removal (to correctly detect what's still present)
+        const existingIds = [];
+        container.find('.major-item').each(function() {
+            const majorId = $(this).attr('data-major-id') || $(this).data('major-id');
+            if (majorId) {
+                existingIds.push(String(majorId));
             }
         });
         

@@ -455,10 +455,17 @@ class MajorRepository extends BaseRepository
         
         $majors = $query->paginate($perPage)->withQueryString()->withPath($paginationPath);
 
-        // Load languages relationship cho từng major
+        // Load languages and schools relationships cho từng major
         foreach ($majors as $major) {
             $major->load(['languages' => function($query) use ($language_id) {
                 $query->where('languages.id', $language_id);
+            }]);
+            
+            // Load schools relationship với language (để hiển thị Trường Đào Tạo)
+            $major->load(['schools' => function($query) use ($language_id) {
+                $query->with(['languages' => function($q) use ($language_id) {
+                    $q->where('languages.id', $language_id);
+                }]);
             }]);
             
             // Decode JSON fields nếu cần
@@ -628,10 +635,17 @@ class MajorRepository extends BaseRepository
         
         $majors = $query->get();
 
-        // Load languages relationship cho từng major
+        // Load languages and schools relationships cho từng major
         foreach ($majors as $major) {
             $major->load(['languages' => function($query) use ($language_id) {
                 $query->where('languages.id', $language_id);
+            }]);
+            
+            // Load schools relationship với language (để hiển thị Trường Đào Tạo)
+            $major->load(['schools' => function($query) use ($language_id) {
+                $query->with(['languages' => function($q) use ($language_id) {
+                    $q->where('languages.id', $language_id);
+                }]);
             }]);
             
             // Decode JSON fields nếu cần
