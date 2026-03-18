@@ -406,7 +406,9 @@
                                                             >
                                                         </div>
                                                         <div class="major-card-content">
-                                                            <h3 class="major-card-name">{{ $majorName }}</h3>
+                                                            <h3 class="major-card-name">
+                                                                <a href="{{ $majorUrl }}" style="color:#008dc2;" title="{{ $majorName }}">{{ $majorName }}</a>
+                                                            </h3>
                                                             <div class="major-card-info">
                                                                 @if($schoolsText)
                                                                     <div class="major-card-info-item">
