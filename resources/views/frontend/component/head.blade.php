@@ -54,8 +54,6 @@
 {{-- FAQ Schema JSON-LD (for Post, Major, and School detail pages) --}}
 @if(isset($faqSchema) && !empty($faqSchema))
 <script type="application/ld+json">
-    {
-        !!$faqSchema!!
-    }
+{!! $faqSchema !!}
 </script>
 @endif
