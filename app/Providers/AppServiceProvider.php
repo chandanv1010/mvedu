@@ -10,6 +10,7 @@ use Carbon\Carbon;
 use App\Http\ViewComposers\MenuComposer;
 use App\Http\ViewComposers\CartComposer;
 use App\Http\ViewComposers\CustomerComposer;
+use App\Http\ViewComposers\SystemComposer;
 use App\Models\Language;
 
 class AppServiceProvider extends ServiceProvider
@@ -44,16 +45,34 @@ class AppServiceProvider extends ServiceProvider
         });
 
 
-        view()->composer(['frontend.*', 'mobile.*'], function($view) use ($language){
+        view()->composer(['frontend.*', 'mobile.*', 'errors.*'], function($view) use ($language){
             $composerClasses = [
                 MenuComposer::class,
                 CartComposer::class,
                 CustomerComposer::class,
+                SystemComposer::class,
             ];
 
             foreach($composerClasses as $key => $val){
                 $composer = app()->make($val, ['language' => $language->id]);
                 $composer->compose($view);
+            }
+
+            if (!$view->offsetExists('seo')) {
+                $view->with('seo', [
+                    'meta_title' => '404 - Trang không tìm thấy',
+                    'meta_description' => '',
+                    'meta_keyword' => '',
+                    'meta_image' => '',
+                    'canonical' => url()->current(),
+                ]);
+            }
+
+            if (!$view->offsetExists('config')) {
+                $view->with('config', [
+                    'js' => [],
+                    'css' => [],
+                ]);
             }
         });
 

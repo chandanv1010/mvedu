@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\RouterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,5 @@ require __DIR__.'/auth.php';
 require __DIR__.'/frontend.php';
 require __DIR__.'/ajax.php';
 require __DIR__.'/backend.php';
+
+Route::fallback([RouterController::class, 'index']);
